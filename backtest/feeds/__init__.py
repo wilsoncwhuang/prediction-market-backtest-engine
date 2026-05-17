@@ -1,0 +1,4 @@
+from backtest.feeds.prediction_market_price_feed import PredictionMarketPriceFeed
+from backtest.feeds.prediction_market_resolution_feed import PredictionMarketResolutionFeed
+
+__all__ = ["PredictionMarketPriceFeed", "PredictionMarketResolutionFeed"]

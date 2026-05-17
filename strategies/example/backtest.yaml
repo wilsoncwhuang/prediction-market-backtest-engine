@@ -1,0 +1,18 @@
+strategy:  ExampleStrategy
+instrument: prediction_market
+
+min_ask_cents:    30.0
+max_ask_cents:    70.0
+quantity:         10
+factor_threshold: 0.5   # only trade on days where factor value >= 0.5
+
+price:
+  - path: data/prices.parquet
+
+resolutions:
+  - path: data/resolutions.parquet
+
+factors:
+  - series:    DEMO
+    pred_path: data/factors.parquet
+    value_col: value

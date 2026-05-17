@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"d:\\\\Projects\\\\kalshi-backtest\\\\backtest\\\\feeds\\\\kalshi_price_feed.py\" \"d:\\\\Projects\\\\kalshi-backtest\\\\backtest\\\\feeds\\\\kalshi_resolution_feed.py\")"
+    ]
+  }
+}
