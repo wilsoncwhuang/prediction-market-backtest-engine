@@ -1,5 +1,7 @@
 # Prediction Market Backtest Framework
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![Platform](https://img.shields.io/badge/Platform-Kalshi%20%7C%20Polymarket-orange) ![UI](https://img.shields.io/badge/UI-Streamlit-red)
+
 Event-driven backtesting engine for binary prediction markets (Kalshi, Polymarket, PredictIt, and others), with an interactive Streamlit UI.
 
 ---
