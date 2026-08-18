@@ -34,12 +34,14 @@ from backtest.reporting.metrics import (
     trade_log_to_round_trips,
 )
 from strategies.example.example_strategy import ExampleStrategy
+from strategies.tennis_winprob.strategy import TennisWinProbStrategy
 
 # ---------------------------------------------------------------------------
 # Strategy registry — add your strategies here
 # ---------------------------------------------------------------------------
 STRATEGY_REGISTRY = {
     "ExampleStrategy": ExampleStrategy,
+    "TennisWinProbStrategy": TennisWinProbStrategy,
 }
 
 # ---------------------------------------------------------------------------
