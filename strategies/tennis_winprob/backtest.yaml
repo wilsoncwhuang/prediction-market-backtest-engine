@@ -1,0 +1,18 @@
+strategy:   TennisWinProbStrategy
+instrument: prediction_market
+
+edge_cents:     5.0    # buy YES when signal% exceeds implied% by >= 5 cents
+quantity:       10
+max_ask_cents:  95.0
+min_ask_cents:  5.0
+
+price:
+  - path: data/tennis_prices.parquet
+
+resolutions:
+  - path: data/tennis_resolutions.parquet
+
+factors:
+  - series:    TENNIS
+    pred_path: data/tennis_factors.parquet
+    value_col: value   # live-tennis win-probability of the YES side (0..1)
